@@ -76,7 +76,16 @@
       </VBox>
    </top>
    <bottom>
-      <Label fx:id="statusLabel" text="Status:" BorderPane.alignment="CENTER_LEFT" />
+      <Label fx:id="statusLabel" text="Statusna vrstica" BorderPane.alignment="CENTER_LEFT">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin></Label>
    </bottom>
    <center>
       <Accordion fx:id="accordion" BorderPane.alignment="CENTER">
